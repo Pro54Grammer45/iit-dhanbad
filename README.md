@@ -1,2 +1,10 @@
-# IIT-Dhanbad
-Hackfest
+<h1 align="center">🚗🪫EcoRoute: The EVs Journey Route Optimisation</h1>
+<h3 align="center">EcoRoute provides autonomous route planning for electric vehicles, by integrating all the existing charging stations. EcoRoute will solve the problem of uncertainty with charging stations availability. It reduces the efforts users has to put previously just to point out the travel route. Using EcoRoute, User just need to provide source and destination , after that considering all the other parameters it will generate a path with automatic realtime charging slot booking and minimise the time of journey by calculating the travel route intelligently.</h3>
+
+<p align="left"> </p>
+
+- 🤔 **Problem Statement** EVs will be the future of smart cities, offering sustainability, but they will encounter significant problems. There are enough charging stations in India, and people are interested in buying EVs, but the primary difficulty is that they can only travel 250-300 kilometres on a full charge. But, if you wish to drive for longer periods of time, say more than 300 kilometres, than you have to manually plot all charging stations and plan your trip accordingly.
+
+- 💎**Why Eco-Route Is Important** We don't have to worry about charging locations with EcoRoute because it locates itself and provides map locations. Some of the key effects are as follows: <ul><li> It reduces the time duration and also the consumption of resources.  </li><li>It takes as input the source and destination, current miles, and charge.  </li><li>It displays the real-time Slot Availability option on the charging station as well as the time required. </li><li> It uses the Google Map services for API generation and operationng Slot Management
+
+- 💡**Solution Proposed** Based on all of these issues, EcoRoute will provide an optimal EV path. User need to specify the Source and Destination only, and Algorithm of the EcoRoute will do the rest. EcoRoute is not website,webapp or android application. EcoRoute is an compatible with existing technology and integrate them well. EcoRoute is software that will be embedded on the Dashboard of the Electric Vehicle and make the car connected to the Charging network. Some significant characteristics of our solution are as follows: * Optimal Route for Electrical Vehicle * Precise charging Time and Autonomus Charging Slot Management * Balancing Time and Comfort*
