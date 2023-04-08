@@ -1,0 +1,145 @@
+.bg2 {
+    position: absolute;
+    top: 56.49px;
+    left: 1421.1px;
+    background-color: #000;
+    width: 1440px;
+    height: 1024px;
+  }
+  .backlayer-item,
+  .backlayer1 {
+    position: absolute;
+    top: 842.11px;
+    left: -1228.82px;
+    width: 623.62px;
+    height: 670.93px;
+  }
+  .backlayer1 {
+    top: -56.49px;
+    left: -1421.1px;
+    width: 2861.1px;
+    height: 1080.49px;
+  }
+  .back-layer-icon6,
+  .div2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 1024px;
+  }
+  .back-layer-icon6 {
+    width: 2300px;
+    height: 1024px;
+    object-fit: cover;
+  }
+  .vehicle-status1 {
+    position: absolute;
+    top: 122px;
+    left: 604px;
+    font-size: 110px;
+    line-height: 106px;
+    font-family: "Crete Round";
+    color: rgba(255, 255, 255, 0.51);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 818px;
+    height: 141px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .car-model1 {
+    margin: 0;
+  }
+  .tata-nexon1 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.62);
+  }
+  .button-name14 {
+    position: relative;
+    letter-spacing: -0.2px;
+    line-height: 43px;
+  }
+  .iconoutlinearrow-right14 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .button-name-parent11,
+  .icon15 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon15 {
+    display: none;
+  }
+  .button-name-parent11 {
+    display: flex;
+    gap: 9px;
+  }
+  .buttonprimarywith-icon13,
+  .buttonprimarywith-icon14,
+  .buttonprimarywith-icon15,
+  .buttonprimarywith-icon16,
+  .buttonprimarywith-icon17,
+  .buttonprimarywith-icon18 {
+    position: absolute;
+    top: 286px;
+    left: 519px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #34c700;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 430px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonprimarywith-icon14,
+  .buttonprimarywith-icon15,
+  .buttonprimarywith-icon16,
+  .buttonprimarywith-icon17,
+  .buttonprimarywith-icon18 {
+    top: 359px;
+    left: 957px;
+  }
+  .buttonprimarywith-icon15,
+  .buttonprimarywith-icon16,
+  .buttonprimarywith-icon17,
+  .buttonprimarywith-icon18 {
+    top: 478px;
+    left: 412px;
+  }
+  .buttonprimarywith-icon16,
+  .buttonprimarywith-icon17,
+  .buttonprimarywith-icon18 {
+    top: 551px;
+    left: 883px;
+  }
+  .buttonprimarywith-icon17,
+  .buttonprimarywith-icon18 {
+    top: 670px;
+    left: 357px;
+  }
+  .buttonprimarywith-icon18 {
+    top: 743px;
+    left: 828px;
+  }
+  .backlayer-parent {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: Play;
+  }
+  
