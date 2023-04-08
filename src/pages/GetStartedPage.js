@@ -1,9 +1,14 @@
 import React from 'react'
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useNavigate } from "react-router-dom";
 import "./GetStartedPage.css";
 export default function GetStartedPage() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate("/choose");
+  }
+
+
   return (
     <div className="get-started-page">
       <div className="hero">
@@ -26,7 +31,7 @@ export default function GetStartedPage() {
       <div className="get-started-page-child" />
       <div className="get-started-button" >
         <div className="button-name-parent10">
-          <b className="button-name13">GET STARTED</b>
+          <b className="button-name13" onClick={handleClick}>GET STARTED</b>
           
         </div>
       </div>

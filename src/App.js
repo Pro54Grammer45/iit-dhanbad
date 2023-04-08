@@ -8,6 +8,7 @@ import Planning from "./pages/Planning";
 import ChargingSlot from "./pages/ChargingSlot";
 import Choose from "./pages/Choose";
 import GetStartedPage from "./pages/GetStartedPage";
+import VehicleStatus from "./pages/VehicleStatus";
 import { useEffect } from "react";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="Choose" element={<Choose />} />
           <Route path="ChargingSlot" element={<ChargingSlot />} />
           <Route path="Planning" element={<Planning />} />
+          <Route path="VehicleStatus" element={<VehicleStatus />} />
         
       </Routes>
     </BrowserRouter>
