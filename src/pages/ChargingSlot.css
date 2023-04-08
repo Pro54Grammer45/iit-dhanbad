@@ -1,0 +1,99 @@
+.back-layer-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2848px;
+    height: 1147px;
+    object-fit: cover;
+  }
+  .button-name1 {
+    position: relative;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+  }
+  .iconoutlinearrow-right1 {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .button-name-group,
+  .icon1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon1 {
+    display: none;
+  }
+  .button-name-group {
+    display: flex;
+    gap: 9px;
+  }
+  .buttonprimarywith-icon1,
+  .buttonprimarywith-icon2 {
+    top: 477px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #34c700;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 430px;
+    height: 146px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .buttonprimarywith-icon1 {
+    position: absolute;
+    left: 1001px;
+    display: flex;
+    align-items: center;
+  }
+  .buttonprimarywith-icon2 {
+    left: 482px;
+  }
+  .book-charging-slot,
+  .buttonprimarywith-icon2,
+  .buttonprimarywith-icon3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .buttonprimarywith-icon3 {
+    top: 680px;
+    left: 697px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #34c700;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 430px;
+    height: 146px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .book-charging-slot {
+    top: 71px;
+    left: 322px;
+    font-size: 110px;
+    line-height: 106px;
+    font-family: "Crete Round";
+    color: rgba(255, 255, 255, 0.51);
+    text-align: left;
+    width: 1013px;
+    height: 141px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .charging-slot {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: Play;
+  }
+  
