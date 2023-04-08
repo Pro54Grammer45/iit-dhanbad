@@ -4,7 +4,7 @@ import fireDb from '../firebase';
 const VehicleStatus = () => {
   const [data,setData] = useState({});
       useEffect(() => {
-          fireDb.child("Sample_data").on('value',(snapshot) =>{
+          fireDb.child("Sample_data ").on('value',(snapshot) =>{
   
               if(snapshot.val()!==null) {
                   setData({...snapshot.val()})

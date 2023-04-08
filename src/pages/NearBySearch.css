@@ -50,11 +50,7 @@
   }
   .buttonprimarywith-icon1 {
     top: 319px;
-  }
-  .buttonprimarywith-icon1,
-  .buttonprimarywith-icon2,
-  .buttonprimarywith-icon3,
-  .buttonprimarywith-icon4 {
+ 
     position: absolute;
     border-radius: 56px 49px 214px 15px;
     background-color: #63bd43;
@@ -165,37 +161,6 @@
   .charid1,
   .charid2,
   .location,
-  .location1,
-  .waiting-time,
-  .waiting-time1 {
-    top: 245px;
-    left: 778px;
-    width: 210px;
-  }
-  .charid1,
-  .charid2,
-  .location1,
-  .waiting-time,
-  .waiting-time1 {
-    top: 246px;
-    left: 1109px;
-    width: 281px;
-  }
-  .charid1,
-  .charid2,
-  .location1,
-  .waiting-time1 {
-    top: 343px;
-    left: 521px;
-    width: 130px;
-  }
-  .charid2,
-  .location1,
-  .waiting-time1 {
-    top: 342px;
-    left: 782px;
-    width: 210px;
-  }
   .charid2,
   .waiting-time1 {
     top: 343px;

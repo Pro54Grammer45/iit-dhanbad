@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react';
+import fireDb from '../firebase';
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./NearBySearch.css";
@@ -11,7 +12,29 @@ const NearBySearch = () => {
   function handleGoBack(){
     navigate('/ChargingSlot');
   }
+ 
+
+  const [data,setData] = useState({});
+      useEffect(() => {
+          fireDb.child("Sample_data ").on('value',(snapshot) =>{
+  
+              if(snapshot.val()!==null) {
+                  setData({...snapshot.val()})
+              }
+              else{
+                  setData({});
+  
+              }
+          });
+          return () => {
+              setData({});
+          };
+      },[]);
   return (
+    <>
+    {Object.keys(data).map((id,index)=>{
+
+      return(
     <div className="nearby-available-chargers">
       <img className="back-layer-icon" alt="" src={require('../images/back.png')} />
       <div className="buttonprimarywith-icon">
@@ -121,6 +144,9 @@ const NearBySearch = () => {
       <b className="location5">Location</b>
       <b className="waiting-time5">Waiting Time</b>
     </div>
+      );
+    })}
+    </>
   );
 };
 
