@@ -1,0 +1,114 @@
+.back-layer-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 1024px;
+    object-fit: cover;
+  }
+  .source,
+  .sourceform {
+    position: absolute;
+    left: 46px;
+  }
+  .sourceform {
+    top: 74px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 376px;
+    height: 59px;
+  }
+  .source {
+    top: 90px;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 25px;
+  }
+  .destform {
+    position: absolute;
+    top: 74px;
+    left: 454px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 376px;
+    height: 59px;
+  }
+  .button-name,
+  .destination {
+    letter-spacing: -0.2px;
+    line-height: 28px;
+  }
+  .destination {
+    position: absolute;
+    top: 92px;
+    left: 454px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 25px;
+  }
+  .button-name {
+    position: relative;
+  }
+  .iconoutlinearrow-right {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .icon {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-name-parent,
+  .buttonprimarywith-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-name-parent {
+    flex-direction: row;
+    gap: 9px;
+  }
+  .buttonprimarywith-icon {
+    position: absolute;
+    top: 74px;
+    left: 872px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #34c700;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 139px;
+    height: 64px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  .back-layer-parent {
+    position: absolute;
+    top: 28px;
+    left: 200px;
+    border-radius: 12px;
+    width: 1057px;
+    height: 207px;
+    overflow: hidden;
+  }
+  .planning {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    font-family: Play;
+  }
+  
