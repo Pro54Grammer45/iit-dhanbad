@@ -1,0 +1,338 @@
+.back-layer-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2848px;
+    height: 1147px;
+    object-fit: cover;
+  }
+  .button-name {
+    position: relative;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+  }
+  .iconoutlinearrow-right {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .button-name-parent,
+  .icon {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-name-parent {
+    gap: 9px;
+  }
+  .buttonprimarywith-icon,
+  .buttonprimarywith-icon1 {
+    left: 452px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonprimarywith-icon {
+    position: absolute;
+    top: 222px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #63bd43;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1011px;
+    height: 87px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    color: #000;
+  }
+  .buttonprimarywith-icon1 {
+    top: 319px;
+  }
+  .buttonprimarywith-icon1,
+  .buttonprimarywith-icon2,
+  .buttonprimarywith-icon3,
+  .buttonprimarywith-icon4 {
+    position: absolute;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #63bd43;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1011px;
+    height: 87px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    color: #000;
+  }
+  .buttonprimarywith-icon2 {
+    top: 416px;
+    left: 452px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonprimarywith-icon3,
+  .buttonprimarywith-icon4 {
+    left: 446px;
+  }
+  .buttonprimarywith-icon3 {
+    top: 513px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonprimarywith-icon4 {
+    top: 610px;
+  }
+  .button-name-parent3,
+  .buttonprimarywith-icon4,
+  .buttonprimarywith-icon5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonprimarywith-icon5 {
+    position: absolute;
+    top: 707px;
+    left: 446px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #63bd43;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1011px;
+    height: 87px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    color: #000;
+  }
+  .button-name-parent3 {
+    flex-direction: row;
+    gap: 9px;
+  }
+  .buttonprimarywith-icon6,
+  .nearby-available {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .buttonprimarywith-icon6 {
+    top: 821px;
+    left: 827px;
+    border-radius: 56px 49px 214px 15px;
+    background-color: #34c700;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 64px;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    justify-content: center;
+    cursor: pointer;
+    color: #000;
+  }
+  .nearby-available {
+    top: 71px;
+    left: 322px;
+    font-size: 110px;
+    line-height: 106px;
+    font-family: "Crete Round";
+    color: rgba(255, 255, 255, 0.51);
+    text-align: left;
+    width: 1013px;
+    height: 141px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .charid,
+  .charid1,
+  .charid2,
+  .location,
+  .location1,
+  .waiting-time,
+  .waiting-time1 {
+    position: absolute;
+    top: 246px;
+    left: 517px;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 41px;
+  }
+  .charid1,
+  .charid2,
+  .location,
+  .location1,
+  .waiting-time,
+  .waiting-time1 {
+    top: 245px;
+    left: 778px;
+    width: 210px;
+  }
+  .charid1,
+  .charid2,
+  .location1,
+  .waiting-time,
+  .waiting-time1 {
+    top: 246px;
+    left: 1109px;
+    width: 281px;
+  }
+  .charid1,
+  .charid2,
+  .location1,
+  .waiting-time1 {
+    top: 343px;
+    left: 521px;
+    width: 130px;
+  }
+  .charid2,
+  .location1,
+  .waiting-time1 {
+    top: 342px;
+    left: 782px;
+    width: 210px;
+  }
+  .charid2,
+  .waiting-time1 {
+    top: 343px;
+    left: 1113px;
+    width: 281px;
+  }
+  .charid2 {
+    top: 439px;
+    left: 521px;
+    width: 130px;
+  }
+  .charid3,
+  .charid4,
+  .charid5,
+  .location2,
+  .location3,
+  .location4,
+  .location5,
+  .waiting-time2,
+  .waiting-time3,
+  .waiting-time4,
+  .waiting-time5 {
+    position: absolute;
+    top: 438px;
+    left: 782px;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 41px;
+  }
+  .charid3,
+  .charid4,
+  .charid5,
+  .location3,
+  .location4,
+  .location5,
+  .waiting-time2,
+  .waiting-time3,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 439px;
+    left: 1113px;
+    width: 281px;
+  }
+  .charid3,
+  .charid4,
+  .charid5,
+  .location3,
+  .location4,
+  .location5,
+  .waiting-time3,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 536px;
+    left: 521px;
+    width: 130px;
+  }
+  .charid4,
+  .charid5,
+  .location3,
+  .location4,
+  .location5,
+  .waiting-time3,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 535px;
+    left: 782px;
+    width: 210px;
+  }
+  .charid4,
+  .charid5,
+  .location4,
+  .location5,
+  .waiting-time3,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 536px;
+    left: 1113px;
+    width: 281px;
+  }
+  .charid4,
+  .charid5,
+  .location4,
+  .location5,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 630px;
+    left: 521px;
+    width: 130px;
+  }
+  .charid5,
+  .location4,
+  .location5,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 629px;
+    left: 782px;
+    width: 210px;
+  }
+  .charid5,
+  .location5,
+  .waiting-time4,
+  .waiting-time5 {
+    top: 630px;
+    left: 1113px;
+    width: 281px;
+  }
+  .charid5,
+  .location5,
+  .waiting-time5 {
+    top: 726px;
+    left: 521px;
+    width: 130px;
+  }
+  .location5,
+  .waiting-time5 {
+    top: 725px;
+    left: 782px;
+    width: 210px;
+  }
+  .waiting-time5 {
+    top: 726px;
+    left: 1113px;
+    width: 281px;
+  }
+  .nearby-available-chargers {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-family: Play;
+  }
+  

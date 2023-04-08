@@ -11,6 +11,7 @@ import GetStartedPage from "./pages/GetStartedPage";
 import VehicleStatus from "./pages/VehicleStatus";
 //import Calculate from "./pages/CalcPlan";
 import { useEffect } from "react";
+import NearBySearch from "./pages/NearBySearch";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="ChargingSlot" element={<ChargingSlot />} />
           <Route path="Planning" element={<Planning />} />
           <Route path="VehicleStatus" element={<VehicleStatus />} />
+          <Route path="NearbySearch" element={<NearBySearch />} />
           
         
       </Routes>
