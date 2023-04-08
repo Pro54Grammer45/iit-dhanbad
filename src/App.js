@@ -9,6 +9,7 @@ import ChargingSlot from "./pages/ChargingSlot";
 import Choose from "./pages/Choose";
 import GetStartedPage from "./pages/GetStartedPage";
 import VehicleStatus from "./pages/VehicleStatus";
+//import Calculate from "./pages/CalcPlan";
 import { useEffect } from "react";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="ChargingSlot" element={<ChargingSlot />} />
           <Route path="Planning" element={<Planning />} />
           <Route path="VehicleStatus" element={<VehicleStatus />} />
+          
         
       </Routes>
     </BrowserRouter>
