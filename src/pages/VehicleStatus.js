@@ -1,8 +1,29 @@
 import "./VehicleStatus.css";
-import React from "react";
+import React, {useState,useEffect} from 'react';
+import fireDb from '../firebase';
 const VehicleStatus = () => {
+  const [data,setData] = useState({});
+      useEffect(() => {
+          fireDb.child("Sample_data").on('value',(snapshot) =>{
+  
+              if(snapshot.val()!==null) {
+                  setData({...snapshot.val()})
+              }
+              else{
+                  setData({});
+  
+              }
+          });
+          return () => {
+              setData({});
+          };
+      },[]);
   return (
+    <>
+    {Object.keys(data).map((id,index)=>{
+      return(
     <div className="backlayer-parent">
+      
       <div className="backlayer1">
         <div className="bg2" />
         <img className="backlayer-item" alt="" src="/ellipse-331.svg" />
@@ -14,7 +35,7 @@ const VehicleStatus = () => {
         <div className="button-name-parent11">
           <b className="button-name14">
             <p className="car-model1">Car Model</p>
-            <p className="tata-nexon1">Tata Nexon</p>
+            <p className="tata-nexon1">{data[id].Modal}</p>
           </b>
           
         </div>
@@ -23,7 +44,7 @@ const VehicleStatus = () => {
         <div className="button-name-parent11">
           <b className="button-name14">
             <p className="car-model1">Total Trip Time</p>
-            <p className="tata-nexon1">100 Hrs</p>
+            <p className="tata-nexon1">{data[id].Time} Hrs</p>
           </b>
          
         </div>
@@ -32,7 +53,7 @@ const VehicleStatus = () => {
         <div className="button-name-parent11">
           <b className="button-name14">
             <p className="car-model1">Total Distance</p>
-            <p className="tata-nexon1">4000 km</p>
+            <p className="tata-nexon1">{data[id].Distance} km</p>
           </b>
           <div className="icon15">
             
@@ -43,7 +64,7 @@ const VehicleStatus = () => {
         <div className="button-name-parent11">
           <b className="button-name14">
             <p className="car-model1">Previous Mileage</p>
-            <p className="tata-nexon1">40 kmPu</p>
+            <p className="tata-nexon1">{data[id].Milage} kmPu</p>
           </b>
           <div className="icon15">
             <img
@@ -58,7 +79,7 @@ const VehicleStatus = () => {
         <div className="button-name-parent11">
           <b className="button-name14">
             <p className="car-model1">Current Battery Per</p>
-            <p className="tata-nexon1">21 %</p>
+            <p className="tata-nexon1">{data[id].Battery} %</p>
           </b>
           <div className="icon15">
             <img
@@ -73,7 +94,7 @@ const VehicleStatus = () => {
         <div className="button-name-parent11">
           <b className="button-name14">
             <p className="car-model1">Battery Capacity</p>
-            <p className="tata-nexon1">40 Kwh</p>
+            <p className="tata-nexon1">{data[id].Capacity} Kwh</p>
           </b>
           <div className="icon15">
             <img
@@ -85,6 +106,9 @@ const VehicleStatus = () => {
         </div>
       </div>
     </div>
+      );
+    })}
+  </>
   );
 };
 
