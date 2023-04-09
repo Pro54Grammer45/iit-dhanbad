@@ -14,6 +14,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# Install React dependencies
+
+### `npm i react` , `npm i react-dom` , `npm react-icons` , `npm react router-dom` , `react-script`
+
+This project have react framework for the proper function work and manage all things.
+
+# Install all other dependencies
+
+### `npm install`
+
+It will install all the required dependencies of the project from he package.json file to work efficently.
+
+# For the Real Time Data Management We use Firebase
+
+### `npm i firebase`
+
+Firebase is used to store all the Real time data that iteracts with modal for the required function at current time.
+
+
+### Having a Google api interface for the optimal route path
+
+### `@react-google-maps/api` ,`@testing-library/jest-dom` ,`@testing-library/react`,`@testing-library/user-event`
+
+For the optimal route Plot we have call google api to interact with our algo and provide all the key value pairs with a proper checkpoints and all.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
